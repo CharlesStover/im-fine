@@ -32,11 +32,12 @@ h1 {
 
 span {
   color: #404040;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.25em;
+  font-family: , Helvetica, sans-serif;
+  font-size: 0.5em;
   font-weight: bold;
-  left: 100%;
+  left: 10%;
   position: absolute;
+  background-blend-mode: add;
   white-space: nowrap;
   z-index:1;
 }
@@ -47,7 +48,7 @@ span {
     <meta name="keywords" content="depression, i am fine, i'm fine, im fine" />
   </head>
   <body>
-    <h1 class="fake">terrible, thanks for asking.</h1>
+    <h1 class="fake">I'm fine.</h1>
     <script type="text/javascript">
 
 var text = [
@@ -137,7 +138,7 @@ var text = [
 var message = function() {
 
 		var span = document.createElement("span"),
-			speed = Math.ceil(Math.random() * 4);
+			speed = Math.ceil(Math.random() * 3);
 
 		// Good text.
 		if (Math.random() < 0.01) {
